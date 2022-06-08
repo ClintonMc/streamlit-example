@@ -11,7 +11,7 @@ from gsheetsdb import connect
 #        "https://www.googleapis.com/auth/spreadsheets",
 #    ],
 #)
-conn = connect(credentials=credentials)
+conn = connect()
 
 # Perform SQL query on the Google Sheet.
 # Uses st.cache to only rerun when the query changes or after 10 min.
